@@ -47,6 +47,10 @@ nav ul{
 
 
 }
+/* sectioner bg color */
+.sec-bgcolor{
+    background-color: #acecd9;
+}
 /* headerer bg image set */
 .header{
     background-image: url('../image/developer.png'),url('../image/headerbg.png');
@@ -77,4 +81,31 @@ nav ul{
     width: 580px;
     height: 676px;
 }
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about sectioner kaj */
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.about{
+     border-radius: 10px;
+     padding:130px 150px;
+     margin-top: 130px;
+     text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top:;
+}
+.item-discription{
+    font-weight: bold;
+}
+.try{
+    background-color: floralwhite;
+    
+}
